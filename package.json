@@ -1,0 +1,30 @@
+{
+  "name": "use-url-query",
+  "version": "1.0.0",
+  "description": "A React custom hook for managing URL queries with Next.js navigation.",
+  "keywords": ["react", "hook", "url", "query", "nextjs"],
+  "main": "dist/useURLQuery.js",
+  "types": "dist/useURLQuery.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "next": "^15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.2.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.7.3"
+  }
+}
