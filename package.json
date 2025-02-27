@@ -1,6 +1,6 @@
 {
   "name": "use-query-data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React custom hook for managing URL queries with Next.js navigation.",
   "keywords": ["react", "hook", "url", "query", "nextjs"],
   "main": "dist/index.js",
