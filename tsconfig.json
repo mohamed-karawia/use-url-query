@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "allowJs": true,
+    "moduleResolution": "node",
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
     "skipLibCheck": true,
-    "jsx": "react-jsx",
-    "outDir": "./dist"
-  }
+    "strict": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"]
 }
